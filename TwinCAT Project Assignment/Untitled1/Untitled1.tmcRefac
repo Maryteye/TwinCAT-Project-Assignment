@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Refactors>
+  <Renames>
+    <RenamedType>
+      <Type guid="469d1035-b516-4a87-899e-f7318b5a282f">GVL_IO</Type>
+      <From>GVL_IO</From>
+      <To>GVL_EverySignal</To>
+    </RenamedType>
+  </Renames>
+</Refactors>

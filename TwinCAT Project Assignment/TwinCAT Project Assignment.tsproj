@@ -1869,15 +1869,15 @@ External Setpoint Generation:
 								<SyncMan>001002000000010004000000000000000200001000010000</SyncMan>
 								<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 								<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-									<Entry Name="Wartungseinheit:: Druckschalter" Index="#x6000" Sub="#x01">
+									<Entry Name="E0.0_1_DI0" Index="#x6000" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DI0_E0.0]]></Comment>
+										<Comment><![CDATA[Wartungseinheit:: Druckschalter]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 2" Index="#x1a01" Flags="#x0011" SyncMan="0">
-									<Entry Name="Not-Halt betatigt" Index="#x6010" Sub="#x01">
+									<Entry Name="E0.1_2_DI1" Index="#x6010" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DI1_E0.1]]></Comment>
+										<Comment><![CDATA[Not-Halt betatigt]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 3" Index="#x1a02" Flags="#x0011" SyncMan="0">
@@ -1975,15 +1975,15 @@ External Setpoint Generation:
 								<SyncMan>010f01004400010003000000000000000100010f44090000</SyncMan>
 								<Fmmu>0000000000000000000f00020100000001000000000000000000000000000000</Fmmu>
 								<Pdo Name="Channel 1" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="Wartungseinheit: Entluften" Index="#x7000" Sub="#x01">
+									<Entry Name="A0.0_1_DQ0" Index="#x7000" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ0_A0.0]]></Comment>
+										<Comment><![CDATA[Wartungseinheit: Entluften]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 2" Index="#x1601" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="LaserEnable" Index="#x7010" Sub="#x01">
+									<Entry Name="A0.1_2_DQ1" Index="#x7010" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ1_A0.1]]></Comment>
+										<Comment><![CDATA[LaserEnable]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 3" Index="#x1602" InOut="1" Flags="#x0011" SyncMan="0">
@@ -2080,39 +2080,39 @@ External Setpoint Generation:
 							<SyncMan>001001000000010004000000010001000100001000010000</SyncMan>
 							<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Auswerfer AS" Index="#x6000" Sub="#x01">
+								<Entry Name="E1050.0 _X1:4_DI0" Index="#x6000" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.0 _X1:4_DI0]]></Comment>
+									<Comment><![CDATA[Zylinder Auswerfer AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 2" Index="#x1a01" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Auswerfer GS" Index="#x6010" Sub="#x01">
+								<Entry Name="E1050.1_X2:4_DI1" Index="#x6010" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.1_X2:4_DI1]]></Comment>
+									<Comment><![CDATA[Zylinder Auswerfer GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1a02" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder  Spanner AS" Index="#x6020" Sub="#x01">
+								<Entry Name="E1050.2_X3:4_DI2" Index="#x6020" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.2_X3:4_DI2]]></Comment>
+									<Comment><![CDATA[Zylinder  Spanner AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 4" Index="#x1a03" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Spanner GS" Index="#x6030" Sub="#x01">
+								<Entry Name="E1050.3_X4:4_DI3" Index="#x6030" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.3_X4:4_DI3]]></Comment>
+									<Comment><![CDATA[Zylinder Spanner GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 5" Index="#x1a04" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Weiche AS" Index="#x6040" Sub="#x01">
+								<Entry Name="E1050.4_X5:4_DI4" Index="#x6040" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.4_X5:4_DI4]]></Comment>
+									<Comment><![CDATA[Zylinder Weiche AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 6" Index="#x1a05" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Weiche GS" Index="#x6050" Sub="#x01">
+								<Entry Name="E1050.5_X6:4_DI5" Index="#x6050" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1050.5_X6:4_DI5]]></Comment>
+									<Comment><![CDATA[Zylinder Weiche GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 7" Index="#x1a06" Flags="#x0011" SyncMan="0">
@@ -2134,27 +2134,27 @@ External Setpoint Generation:
 							<SyncMan>001001000000010004000000010001000100001000010000</SyncMan>
 							<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Einlauf AS" Index="#x6000" Sub="#x01">
+								<Entry Name="E1051.0_X1:4_DI0" Index="#x6000" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1051.0_X1:4_DI0]]></Comment>
+									<Comment><![CDATA[Zylinder Einlauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 2" Index="#x1a01" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Einlauf GS" Index="#x6010" Sub="#x01">
+								<Entry Name="E1051.1_X2:4_DI1" Index="#x6010" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1051.1_X2:4_DI1]]></Comment>
+									<Comment><![CDATA[Zylinder Einlauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1a02" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Auslauf AS" Index="#x6020" Sub="#x01">
+								<Entry Name="E1051.2_X3:4_DI2" Index="#x6020" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1051.2_X3:4_DI2]]></Comment>
+									<Comment><![CDATA[Zylinder Auslauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 4" Index="#x1a03" Flags="#x0011" SyncMan="0">
-								<Entry Name="Zylinder Auslauf GS" Index="#x6030" Sub="#x01">
+								<Entry Name="E1051.3_X4:4_DI3" Index="#x6030" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1051.3_X4:4_DI3]]></Comment>
+									<Comment><![CDATA[Zylinder Auslauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 5" Index="#x1a04" Flags="#x0011" SyncMan="0">
@@ -2186,51 +2186,51 @@ External Setpoint Generation:
 							<SyncMan>001001000000010004000000010001000100001000010000</SyncMan>
 							<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-								<Entry Name="Lichtschranke Einlauf" Index="#x6000" Sub="#x01">
+								<Entry Name="E1052.0_X1:4_DI0" Index="#x6000" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.0_X1:4_DI0]]></Comment>
+									<Comment><![CDATA[Lichtschranke Einlauf]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 2" Index="#x1a01" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Einlauf eingerastet" Index="#x6010" Sub="#x01">
+								<Entry Name="E1052.1_X2:4_DI1" Index="#x6010" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.1_X2:4_DI1]]></Comment>
+									<Comment><![CDATA[Servo Einlauf eingerastet]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1a02" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Einlauf AS" Index="#x6020" Sub="#x01">
+								<Entry Name="E1052.2_X3:4_DI2" Index="#x6020" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.2_X3:4_DI2]]></Comment>
+									<Comment><![CDATA[Servo Einlauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 4" Index="#x1a03" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Einlauf GS" Index="#x6030" Sub="#x01">
+								<Entry Name="E1052.3_X4:4_DI3" Index="#x6030" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.3_X4:4_DI3]]></Comment>
+									<Comment><![CDATA[Servo Einlauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 5" Index="#x1a04" Flags="#x0011" SyncMan="0">
-								<Entry Name="Lichtschranke Auslauf" Index="#x6040" Sub="#x01">
+								<Entry Name="E1052.4_X5:4_DI4" Index="#x6040" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.4_X5:4_DI4]]></Comment>
+									<Comment><![CDATA[Lichtschranke Auslauf]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 6" Index="#x1a05" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Auslauf eingerastet" Index="#x6050" Sub="#x01">
+								<Entry Name="E1052.5_X6:4_DI5" Index="#x6050" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.5_X6:4_DI5]]></Comment>
+									<Comment><![CDATA[Servo Auslauf eingerastet]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 7" Index="#x1a06" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Auslauf AS" Index="#x6060" Sub="#x01">
+								<Entry Name="E1052.6_X7:4_DI6" Index="#x6060" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.6_X7:4_DI6]]></Comment>
+									<Comment><![CDATA[Servo Auslauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 8" Index="#x1a07" Flags="#x0011" SyncMan="0">
-								<Entry Name="Servo Auslauf GS" Index="#x6070" Sub="#x01">
+								<Entry Name="E1052.7_X8:4_DI7" Index="#x6070" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[E1052.7_X8:4_DI7]]></Comment>
+									<Comment><![CDATA[Servo Auslauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 						</EtherCAT>
@@ -2242,51 +2242,51 @@ External Setpoint Generation:
 							<SyncMan>000f01004400010003000000010001000100000f44090000</SyncMan>
 							<Fmmu>0000000000000000000f00020100000001000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auswerfer AS" Index="#x7000" Sub="#x01">
+								<Entry Name="A1050.0_X1:4_DQ0" Index="#x7000" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.0_X1:4_DQ0]]></Comment>
+									<Comment><![CDATA[Ventil Auswerfer AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 2" Index="#x1601" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auswerfer GS" Index="#x7010" Sub="#x01">
+								<Entry Name="A1050.1_X2:4_DQ1" Index="#x7010" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.1_X2:4_DQ1]]></Comment>
+									<Comment><![CDATA[Ventil Auswerfer GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1602" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Spanner AS" Index="#x7020" Sub="#x01">
+								<Entry Name="A1050.2_X3:4_DQ2" Index="#x7020" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.2_X3:4_DQ2]]></Comment>
+									<Comment><![CDATA[Ventil Spanner AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 4" Index="#x1603" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Spanner GS" Index="#x7030" Sub="#x01">
+								<Entry Name="A1050.3_X4:4_DQ3" Index="#x7030" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.3_X4:4_DQ3]]></Comment>
+									<Comment><![CDATA[Ventil Spanner GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 5" Index="#x1604" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Weiche AS" Index="#x7040" Sub="#x01">
+								<Entry Name="A1050.4_X5:4_DQ4" Index="#x7040" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.4_X5:4_DQ4]]></Comment>
+									<Comment><![CDATA[Ventil Weiche AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 6" Index="#x1605" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Weiche GS" Index="#x7050" Sub="#x01">
+								<Entry Name="A1050.5_X6:4_DQ5" Index="#x7050" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.5_X6:4_DQ5]]></Comment>
+									<Comment><![CDATA[Ventil Weiche GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 7" Index="#x1606" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Ausblasen AS" Index="#x7060" Sub="#x01">
+								<Entry Name="A1050.6_X7:4_DQ6" Index="#x7060" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.6_X7:4_DQ6]]></Comment>
+									<Comment><![CDATA[Ventil Ausblasen AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 8" Index="#x1607" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Ausblasen GS" Index="#x7070" Sub="#x01">
+								<Entry Name="A1050.7_X8:4_DQ7" Index="#x7070" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1050.7_X8:4_DQ7]]></Comment>
+									<Comment><![CDATA[Ventil Ausblasen GS]]></Comment>
 								</Entry>
 							</Pdo>
 						</EtherCAT>
@@ -2298,51 +2298,51 @@ External Setpoint Generation:
 							<SyncMan>000f01004400010003000000010001000100000f44090000</SyncMan>
 							<Fmmu>0000000000000000000f00020100000001000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Einlauf AS" Index="#x7000" Sub="#x01">
+								<Entry Name="A1051.0_X1:4_DQ0" Index="#x7000" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.0_X1:4_DQ0]]></Comment>
+									<Comment><![CDATA[Ventil Einlauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 2" Index="#x1601" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Einlauf GS" Index="#x7010" Sub="#x01">
+								<Entry Name="A1051.1_X2:4_DQ1" Index="#x7010" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.1_X2:4_DQ1]]></Comment>
+									<Comment><![CDATA[Ventil Einlauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1602" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auslauf AS" Index="#x7020" Sub="#x01">
+								<Entry Name="A1051.2_X3:4_DQ2" Index="#x7020" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.2_X3:4_DQ2]]></Comment>
+									<Comment><![CDATA[Ventil Auslauf AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 4" Index="#x1603" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auslauf GS" Index="#x7030" Sub="#x01">
+								<Entry Name="A1051.3_X4:4_DQ3" Index="#x7030" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.3_X4:4_DQ3]]></Comment>
+									<Comment><![CDATA[Ventil Auslauf GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 5" Index="#x1604" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Ausblasen AS" Index="#x7040" Sub="#x01">
+								<Entry Name="A1051.4_X5:4_DQ4" Index="#x7040" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.4_X5:4_DQ4]]></Comment>
+									<Comment><![CDATA[Ventil Ausblasen AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 6" Index="#x1605" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Ausblasen GS" Index="#x7050" Sub="#x01">
+								<Entry Name="A1051.5_X6:4_DQ5" Index="#x7050" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.5_X6:4_DQ5]]></Comment>
+									<Comment><![CDATA[Ventil Ausblasen GS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 7" Index="#x1606" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auswurf Bypass AS" Index="#x7060" Sub="#x01">
+								<Entry Name="A1051.6_X7:4_DQ6" Index="#x7060" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.6_X7:4_DQ6]]></Comment>
+									<Comment><![CDATA[Ventil Auswurf Bypass AS]]></Comment>
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 8" Index="#x1607" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="Ventil Auswurf Bypass GS" Index="#x7070" Sub="#x01">
+								<Entry Name="A1051.7_X8:4_DQ7" Index="#x7070" Sub="#x01">
 									<Type>BIT</Type>
-									<Comment><![CDATA[A1051.7_X8:4_DQ7]]></Comment>
+									<Comment><![CDATA[Ventil Auswurf Bypass GS]]></Comment>
 								</Entry>
 							</Pdo>
 						</EtherCAT>
@@ -2360,21 +2360,21 @@ External Setpoint Generation:
 								<SyncMan>001002000000010004000000000000000200001000010000</SyncMan>
 								<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 								<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Lready" Index="#x6000" Sub="#x01">
+									<Entry Name="E50.0_1_DI0" Index="#x6000" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[1_DI0_E50.0]]></Comment>
+										<Comment><![CDATA[CW: Lready]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 2" Index="#x1a01" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Jobloaded" Index="#x6010" Sub="#x01">
+									<Entry Name="E50.1_2_DI1" Index="#x6010" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[2_DI1_E50.1]]></Comment>
+										<Comment><![CDATA[CW: Jobloaded]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 3" Index="#x1a02" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW_MarkInProgress" Index="#x6020" Sub="#x01">
+									<Entry Name="E50.2_3_DI2" Index="#x6020" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[3_DI2E50.2]]></Comment>
+										<Comment><![CDATA[CW: MarkInProgress]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 4" Index="#x1a03" Flags="#x0011" SyncMan="0">
@@ -2466,39 +2466,39 @@ External Setpoint Generation:
 								<SyncMan>010f01004400010003000000000000000100010f44090000</SyncMan>
 								<Fmmu>0000000000000000000f00020100000001000000000000000000000000000000</Fmmu>
 								<Pdo Name="Channel 1" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Ltrig" Index="#x7000" Sub="#x01">
+									<Entry Name="A50.0_1_DQ0" Index="#x7000" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ0_A50.0]]></Comment>
+										<Comment><![CDATA[CW: Ltrig]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 2" Index="#x1601" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Job" Index="#x7010" Sub="#x01">
+									<Entry Name="A50.1_2_DQ1" Index="#x7010" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ1_A50.1]]></Comment>
+										<Comment><![CDATA[CW: Job]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 3" Index="#x1602" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Job" Index="#x7020" Sub="#x01">
+									<Entry Name="A50.2_3_DQ2" Index="#x7020" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ2_A50.2]]></Comment>
+										<Comment><![CDATA[CW: Job]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 4" Index="#x1603" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Job" Index="#x7030" Sub="#x01">
+									<Entry Name="A50.3_4_DQ3" Index="#x7030" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ3_A50.3]]></Comment>
+										<Comment><![CDATA[CW: Job]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 5" Index="#x1604" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: Job" Index="#x7040" Sub="#x01">
+									<Entry Name="A50.4_5_DQ4" Index="#x7040" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ4_A50.4]]></Comment>
+										<Comment><![CDATA[CW: Job]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 6" Index="#x1605" InOut="1" Flags="#x0011" SyncMan="0">
-									<Entry Name="CW: STO" Index="#x7050" Sub="#x01">
+									<Entry Name="A50.5_6_DQ5" Index="#x7050" Sub="#x01">
 										<Type>BIT</Type>
-										<Comment><![CDATA[DQ5_A50.5]]></Comment>
+										<Comment><![CDATA[CW: STO]]></Comment>
 									</Entry>
 								</Pdo>
 								<Pdo Name="Channel 7" Index="#x1606" InOut="1" Flags="#x0011" SyncMan="0">
