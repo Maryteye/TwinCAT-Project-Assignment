@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL_IO" Id="{469d1035-b516-4a87-899e-f7318b5a282f}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	//======= INPUTS ======
+	
+	// Safety
+	bWartungseinheitDruckschalter	: BOOL;   //MaintenanceUnitPressureSwitch
+	bNotHaltBetatigt				: BOOL;   //EmergencyStopActivated
+	
+	// CW
+	bCWLReady						: BOOL;   
+	bCWJobLoaded					: BOOL;
+	bCWMarkInProgress				: BOOL;
+	
+	// Infeed
+	bLichtschrankeEinlauf			: BOOL;   //InfeedLightBarrier
+	bServoEinlaufEingerastet		: BOOL;   //ServoInletLockedIntoPlace
+	bServoEinlaufAS					: BOOL;   //ServoInfeed
+	bServoEinlaufGS					: BOOL;   //ServoInfeed
+	
+	// Outfeed
+	bLichtschrankeAuslauf			: BOOL;   //OutfeedLightBarrier
+	bServoAuslaufEingerastet		: BOOL;   //ServoOutletLockedIntoPlace
+	bServoAuslaufAS					: BOOL;   //ServoOutlet
+	bServoAuslaufGS					: BOOL;   //ServoOutlet
+	
+	// Ejector
+	bZylinderAuswerfwerAS			: BOOL;   //CylinderEjector
+	bZylinderAuswerferGS			: BOOL;   //CylinderEjector
+	
+	// Clamp
+	bZylinderSpannerAS				: BOOL;   //CylinderClamp
+	bZylinderSpannerGS				: BOOL;   //CylinderClamp
+	
+	// Diverter
+	bZylinderWeicheAS				: BOOL;   //CylinderDiverter
+	bZylinderWeicheGS				: BOOL;   //CylinderDiverter
+	
+	
+	
+	
+	//======== OUTPUTS ========
+	
+	//Valve
+	bVentilAuswerferAS				: BOOL;   //ValveEjector
+	bVentilAuswerferGS				: BOOL;   //ValveEjector
+	
+	bVentilSpannerAS				: BOOL;   //ValveClamp
+	bVentilSpannerGS				: BOOL;   //ValveClamp
+	
+	bVentilWeicheAS					: BOOL;   //ValveDiverter
+	bVentilWeicheGS					: BOOL;   //ValveDiverter
+	
+	bVentilAusblastenAS				: BOOL;   //BlowOutValve
+	bVentilAusblastenGS				: BOOL;   //BlowOutValve
+	
+	bVentilEinlaufAS				: BOOL;   //ValveInfeed
+	bVentilEinlaufGS				: BOOL;   //ValveInfeed
+	
+	bVentilAuslaufAS				: BOOL;   //ValveOutfeed
+	bVentilAuslaufGS				: BOOL;   //ValveOutfeed
+	
+	bVentilAuswerfBypassAS			: BOOL;   //EjectionBypassValve
+	bVentilAuswerfBypassGS			: BOOL;   //EjectionBypassValve
+	
+	// CW
+	bCWTrigger						: BOOL;
+	bCWSTO							: BOOL;
+	bJob							: BOOL;
+	
+	// Machine
+	bWartungseinheitEntluften		: BOOL;   //MaintenanceUnitVenting
+	bLaserEnable					: BOOL;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
