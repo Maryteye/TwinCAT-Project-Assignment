@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="PRG_Mapping" Id="{3e8ebae5-ffdb-4cd5-821d-78dff72d1e64}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM PRG_Mapping
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[//=== Mapping the input signals
+
+GVL_Inputs.bWartungseinheitDruckschalter := GVL_IO.DI_E0_0;
+GVL_Inputs.bNotHaltBetatigt := GVL_IO.DI_E0_1;
+
+GVL_Inputs.bCWLReady := GVL_IO.DI_E1050_0;
+GVL_Inputs.bCWJobLoaded := GVL_IO.DI_E1050_1;
+GVL_Inputs.bCWMarkInProgress := GVL_IO.DI_E1050_2;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

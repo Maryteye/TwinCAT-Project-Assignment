@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL_Inputs" Id="{c87ec361-0895-48b2-aac9-0c14ae41e9fd}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	bWartungseinheitDruckschalter	: BOOL;   //MaintenanceUnitPressureSwitch
+	bNotHaltBetatigt				: BOOL;   //EmergencyStopActivated
+	
+	bCWLReady						: BOOL;   
+	bCWJobLoaded					: BOOL;
+	bCWMarkInProgress				: BOOL;
+	
+	bZylinderAuswerfwerAS			: BOOL;   //CylinderEjector
+	bZylinderAuswerferGS			: BOOL;   //CylinderEjector
+	bZylinderSpannerAS				: BOOL;   //CylinderClamp
+	bZylinderSpannerGS				: BOOL;   //CylinderClamp
+	bZylinderWeicheAS				: BOOL;   //CylinderDiverter
+	bZylinderWeicheGS				: BOOL;   //CylinderDiverter
+	
+	bZylinderEinlaufAS				: BOOL;	  //CylinderInfeed
+	bZylinderEinlaufGS				: BOOL;	  //CylinderInfeed
+	bZylinderAuslaufAS				: BOOL;	  //CylinderOutfeed
+	bZylinderAuslaufGS				: BOOL;	  //CylinderOutfeed
+	
+	bLichtschrankeEinlauf			: BOOL;   //InfeedLightBarrier
+	bServoEinlaufEingerastet		: BOOL;   //ServoInletLockedIntoPlace
+	bServoEinlaufAS					: BOOL;   //ServoInfeed
+	bServoEinlaufGS					: BOOL;   //ServoInfeed
+	bLichtschrankeAuslauf			: BOOL;   //OutfeedLightBarrier
+	bServoAuslaufEingerastet		: BOOL;   //ServoOutletLockedIntoPlace
+	bServoAuslaufAS					: BOOL;   //ServoOutlet
+	bServoAuslaufGS					: BOOL;   //ServoOutlet
+	
+		
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

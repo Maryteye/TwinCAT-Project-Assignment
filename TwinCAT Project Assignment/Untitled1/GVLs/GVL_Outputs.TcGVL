@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <GVL Name="GVL_Outputs" Id="{dc412ae4-fcc4-4abc-90fc-9e0d95b76746}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	bWartungseinheitEntluften		: BOOL;   //MaintenanceUnitVenting
+	bLaserEnable					: BOOL;
+
+	bCWTrigger						: BOOL;
+	bCWSTO							: BOOL;
+	bJob							: BOOL;
+
+	bVentilAuswerferAS				: BOOL;   //ValveEjector
+	bVentilAuswerferGS				: BOOL;   //ValveEjector
+	bVentilSpannerAS				: BOOL;   //ValveClamp
+	bVentilSpannerGS				: BOOL;   //ValveClamp
+	bVentilWeicheAS					: BOOL;   //ValveDiverter
+	bVentilWeicheGS					: BOOL;   //ValveDiverter
+	bVentilAusblastenAS				: BOOL;   //BlowOutValve
+	bVentilAusblastenGS				: BOOL;   //BlowOutValve	
+	
+	bVentilEinlaufAS				: BOOL;   //ValveInfeed
+	bVentilEinlaufGS				: BOOL;   //ValveInfeed
+	bVentilAuslaufAS				: BOOL;   //ValveOutfeed
+	bVentilAuslaufGS				: BOOL;   //ValveOutfeed	
+	bVentilAuswerfBypassAS			: BOOL;   //EjectionBypassValve
+	bVentilAuswerfBypassGS			: BOOL;   //EjectionBypassValve
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
