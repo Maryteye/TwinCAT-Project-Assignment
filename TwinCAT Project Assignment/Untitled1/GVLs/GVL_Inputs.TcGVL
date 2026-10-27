@@ -10,7 +10,7 @@ VAR_GLOBAL
 	bCWJobLoaded					: BOOL;
 	bCWMarkInProgress				: BOOL;
 	
-	bZylinderAuswerfwerAS			: BOOL;   //CylinderEjector
+	bZylinderAuswerferAS			: BOOL;   //CylinderEjector
 	bZylinderAuswerferGS			: BOOL;   //CylinderEjector
 	bZylinderSpannerAS				: BOOL;   //CylinderClamp
 	bZylinderSpannerGS				: BOOL;   //CylinderClamp

@@ -11,9 +11,66 @@ END_VAR
 GVL_Inputs.bWartungseinheitDruckschalter := GVL_IO.DI_E0_0;
 GVL_Inputs.bNotHaltBetatigt := GVL_IO.DI_E0_1;
 
-GVL_Inputs.bCWLReady := GVL_IO.DI_E1050_0;
-GVL_Inputs.bCWJobLoaded := GVL_IO.DI_E1050_1;
-GVL_Inputs.bCWMarkInProgress := GVL_IO.DI_E1050_2;]]></ST>
+GVL_Inputs.bCWLReady := GVL_IO.DI_E50_0;
+GVL_Inputs.bCWJobLoaded := GVL_IO.DI_E50_1;
+GVL_Inputs.bCWMarkInProgress := GVL_IO.DI_E50_2;
+
+GVL_Inputs.bZylinderAuswerferAS := GVL_IO.DI_E1050_0;
+GVL_Inputs.bZylinderAuswerferGS := GVL_IO.DI_E1050_1;
+GVL_Inputs.bZylinderSpannerAS := GVL_IO.DI_E1050_2;
+GVL_Inputs.bZylinderSpannerGS := GVL_IO.DI_E1050_3;
+GVL_Inputs.bZylinderWeicheAS := GVL_IO.DI_E1050_4;
+GVL_Inputs.bZylinderWeicheGS := GVL_IO.DI_E1050_5;
+
+GVL_Inputs.bZylinderEinlaufAS := GVL_IO.DI_E1051_0;
+GVL_Inputs.bZylinderEinlaufGS := GVL_IO.DI_E1051_1;
+GVL_Inputs.bZylinderAuslaufAS := GVL_IO.DI_E1051_2;
+GVL_Inputs.bZylinderAuslaufGS := GVL_IO.DI_E1051_3;
+
+GVL_Inputs.bLichtschrankeEinlauf := GVL_IO.DI_E1052_0;
+GVL_Inputs.bServoEinlaufEingerastet := GVL_IO.DI_E1052_1;
+GVL_Inputs.bServoEinlaufAS := GVL_IO.DI_E1052_2;
+GVL_Inputs.bServoEinlaufGS := GVL_IO.DI_E1052_3;
+GVL_Inputs.bLichtschrankeAuslauf := GVL_IO.DI_E1052_4;
+GVL_Inputs.bServoAuslaufEingerastet := GVL_IO.DI_E1052_5;
+GVL_Inputs.bServoAuslaufAS := GVL_IO.DI_E1052_6;
+GVL_Inputs.bServoAuslaufGS := GVL_IO.DI_E1052_7;
+
+
+//=== Mapping the output signals
+
+GVL_Outputs.bWartungseinheitEntluften := GVL_IO.DQ_A0_0;
+GVL_Outputs.bLaserEnable := GVL_IO.DQ_A0_1;
+GVL_Outputs.bCWTrigger := GVL_IO.DQ_A50_0;
+GVL_Outputs.bCWJob := GVL_IO.DQ_A50_1;
+GVL_Outputs.bCWJob := GVL_IO.DQ_A50_2;
+GVL_Outputs.bCWJob := GVL_IO.DQ_A50_3;
+GVL_Outputs.bCWJob := GVL_IO.DQ_A50_4;
+GVL_Outputs.bCWSTO := GVL_IO.DQ_A50_5;
+
+GVL_Outputs.bVentilAuswerferAS := GVL_IO.DQ_A1050_0;
+GVL_Outputs.bVentilAuswerferGS := GVL_IO.DQ_A1050_1;
+GVL_Outputs.bVentilSpannerAS := GVL_IO.DQ_A1050_2;
+GVL_Outputs.bVentilSpannerGS := GVL_IO.DQ_A1050_3;
+GVL_Outputs.bVentilWeicheAS := GVL_IO.DQ_A1050_4;
+GVL_Outputs.bVentilWeicheGS := GVL_IO.DQ_A1050_5;
+GVL_Outputs.bVentilAusblastenAS := GVL_IO.DQ_A1050_6;
+GVL_Outputs.bVentilAusblastenGS := GVL_IO.DQ_A1050_7;
+
+GVL_Outputs.bVentilEinlaufAS := GVL_IO.DQ_A1051_0;
+GVL_Outputs.bVentilEinlaufGS := GVL_IO.DQ_A1051_1;
+GVL_Outputs.bVentilAuslaufAS := GVL_IO.DQ_A1051_2;
+GVL_Outputs.bVentilAuslaufGS := GVL_IO.DQ_A1051_3;
+GVL_Outputs.bVentilAusblastenAS := GVL_IO.DQ_A1051_4;
+GVL_Outputs.bVentilAusblastenGS := GVL_IO.DQ_A1051_5;
+GVL_Outputs.bVentilAuswerfBypassAS := GVL_IO.DQ_A1051_6;
+GVL_Outputs.bVentilAuswerfBypassGS := GVL_IO.DQ_A1051_7;
+
+
+
+
+
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

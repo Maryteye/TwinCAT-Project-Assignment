@@ -8,7 +8,7 @@ VAR_GLOBAL
 
 	bCWTrigger						: BOOL;
 	bCWSTO							: BOOL;
-	bJob							: BOOL;
+	bCWJob							: BOOL;
 
 	bVentilAuswerferAS				: BOOL;   //ValveEjector
 	bVentilAuswerferGS				: BOOL;   //ValveEjector
