@@ -1,0 +1,6 @@
+FUNCTION_BLOCK FB_Ejector
+VAR_INPUT bPermit,bExtend,bRetract,bSensorAS,bSensorGS:BOOL; END_VAR
+VAR_OUTPUT bValveAS,bValveGS,bAtAS,bAtGS,bFault:BOOL; END_VAR
+bAtAS:=bSensorAS AND NOT bSensorGS; bAtGS:=bSensorGS AND NOT bSensorAS; bFault:=bSensorAS AND bSensorGS;
+bValveAS:=bPermit AND NOT bFault AND bExtend AND NOT bRetract;
+bValveGS:=bPermit AND NOT bFault AND bRetract AND NOT bExtend;

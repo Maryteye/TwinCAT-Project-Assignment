@@ -41,6 +41,7 @@ GVL_Inputs.bServoAuslaufGS := GVL_IO.DI_E1052_7;
 
 GVL_Outputs.bWartungseinheitEntluften := GVL_IO.DQ_A0_0;
 GVL_Outputs.bLaserEnable := GVL_IO.DQ_A0_1;
+
 GVL_Outputs.bCWTrigger := GVL_IO.DQ_A50_0;
 GVL_Outputs.bCWJob := GVL_IO.DQ_A50_1;
 GVL_Outputs.bCWJob := GVL_IO.DQ_A50_2;

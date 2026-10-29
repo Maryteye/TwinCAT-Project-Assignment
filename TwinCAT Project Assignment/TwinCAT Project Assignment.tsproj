@@ -1771,16 +1771,220 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{F19664BE-C18D-42C8-93B8-76D137F3B543}" Name="Untitled1" PrjFilePath="Untitled1\Untitled1.plcproj" TmcFilePath="Untitled1\Untitled1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{8053669E-4399-E399-C631-5CABFF02C881}" TmcPath="Untitled1\Untitled1.tmc">
 					<Name>Untitled1 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="2" AreaNo="1">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>GVL_IO.DQ_A0_0</Name>
+							<Comment><![CDATA[Outputs]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A0_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A50_5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_6</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1050_7</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_6</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DQ_A1051_7</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>GVL_IO.DI_E0_0</Name>
+							<Comment><![CDATA[Inputs]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E0_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E50_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E50_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E50_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1050_5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1051_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1051_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1051_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1051_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_6</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI_E1052_7</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
 					<Contexts>
 						<Context>
-							<Id>1</Id>
-							<Name>Default</Name>
+							<Id>0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x020100a0</OTCID>
+							</ManualConfig>
+							<Priority>21</Priority>
+							<CycleTime>10000000</CycleTime>
 						</Context>
 					</Contexts>
 					<JsonDynPous><![CDATA[null]]></JsonDynPous>
+					<TaskPouOids>
+						<TaskPouOid Prio="21" OTCID="#x08502001"/>
+					</TaskPouOids>
 				</Instance>
 			</Project>
 		</Plc>
@@ -1818,8 +2022,8 @@ External Setpoint Generation:
 							<DcData>3007000090d0030050c30000000000000000ffff000000000000000000000000</DcData>
 							<DcMode>446353796e633235300000000000000053796e63206379636c652074696d653a20323530c2b57300000000000000000090d0030050c3000000000000ffff30070000000000000000000000000000000000000000000000000000000000000000</DcMode>
 							<DcMode>446353796e633132350000000000000053796e63206379636c652074696d653a20313235c2b57300000000000000000048e80100a861000000000000ffff30070000000000000000000000000000000000000000000000000000000000000000</DcMode>
-							<MBoxUserCmdData>020005000a0000001500000003000000000000000000000000000000000000000340010000000000a00f546e637963202d204e43206379636c652074696d6500</MBoxUserCmdData>
-							<MBoxUserCmdData>020005000a0000001700000003000000000000000000000000000000000000000340020000000000a00f5473637963202d20436f6d6d206379636c652074696d6500</MBoxUserCmdData>
+							<MBoxUserCmdData>020005000a00000015000000030000000000000000000000000000000000000003400100000000001027546e637963202d204e43206379636c652074696d6500</MBoxUserCmdData>
+							<MBoxUserCmdData>020005000a000000170000000300000000000000000000000000000000000000034002000000000010275473637963202d20436f6d6d206379636c652074696d6500</MBoxUserCmdData>
 							<MBoxUserCmdData>020005000a0000000e0000000300000000000000000000000000000000000000034020000000000002004f7065726174696f6e206d6f646500</MBoxUserCmdData>
 							<MBoxUserCmdData>020005000a0000000e0000000300000000000000000000000000000000000000234020000000000002004f7065726174696f6e206d6f646500</MBoxUserCmdData>
 							<Pdo Name="AT 1" Index="#x0010" Flags="#x0001" SyncMan="3">
@@ -2579,4 +2783,75 @@ External Setpoint Generation:
 			</Device>
 		</Io>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-0010-0304-3000-040310000403}" Id="#x02030010"/>
+		<MappingInfo Identifier="{08502001-0010-0304-0020-500810000403}" Id="#x02030020" Watchdog="00000000000000000000000000000000"/>
+		<OwnerA Name="TIPC^Untitled1^Untitled1 Instance">
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^Box 10 (EP1018-0001) MS-9K3">
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_0" VarB="Channel 1^E1052.0_X1:4_DI0"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_1" VarB="Channel 2^E1052.1_X2:4_DI1"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_2" VarB="Channel 3^E1052.2_X3:4_DI2"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_3" VarB="Channel 4^E1052.3_X4:4_DI3"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_4" VarB="Channel 5^E1052.4_X5:4_DI4"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_5" VarB="Channel 6^E1052.5_X6:4_DI5"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_6" VarB="Channel 7^E1052.6_X7:4_DI6"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1052_7" VarB="Channel 8^E1052.7_X8:4_DI7"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^Box 11 (EP2028-0001) MS-10K1">
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_0" VarB="Channel 1^A1050.0_X1:4_DQ0"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_1" VarB="Channel 2^A1050.1_X2:4_DQ1"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_2" VarB="Channel 3^A1050.2_X3:4_DQ2"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_3" VarB="Channel 4^A1050.3_X4:4_DQ3"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_4" VarB="Channel 5^A1050.4_X5:4_DQ4"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_5" VarB="Channel 6^A1050.5_X6:4_DQ5"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_6" VarB="Channel 7^A1050.6_X7:4_DQ6"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1050_7" VarB="Channel 8^A1050.7_X8:4_DQ7"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^Box 12 (EP2028-0001) MS-10K2">
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_0" VarB="Channel 1^A1051.0_X1:4_DQ0"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_1" VarB="Channel 2^A1051.1_X2:4_DQ1"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_2" VarB="Channel 3^A1051.2_X3:4_DQ2"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_3" VarB="Channel 4^A1051.3_X4:4_DQ3"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_4" VarB="Channel 5^A1051.4_X5:4_DQ4"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_5" VarB="Channel 6^A1051.5_X6:4_DQ5"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_6" VarB="Channel 7^A1051.6_X7:4_DQ6"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A1051_7" VarB="Channel 8^A1051.7_X8:4_DQ7"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^Box 8 (EP1018-0001) MS-9K1">
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_0" VarB="Channel 1^E1050.0 _X1:4_DI0"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_1" VarB="Channel 2^E1050.1_X2:4_DI1"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_2" VarB="Channel 3^E1050.2_X3:4_DI2"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_3" VarB="Channel 4^E1050.3_X4:4_DI3"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_4" VarB="Channel 5^E1050.4_X5:4_DI4"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1050_5" VarB="Channel 6^E1050.5_X6:4_DI5"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^Box 9 (EP1018-0001) MS-9K2">
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1051_0" VarB="Channel 1^E1051.0_X1:4_DI0"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1051_1" VarB="Channel 2^E1051.1_X2:4_DI1"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1051_2" VarB="Channel 3^E1051.2_X3:4_DI2"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E1051_3" VarB="Channel 4^E1051.3_X4:4_DI3"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^EtherCAT2  (EK1100) Coupler MP-6K1^(EL1809) Input Terminal MP-6K10">
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E0_0" VarB="Channel 1^E0.0_1_DI0"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E0_1" VarB="Channel 2^E0.1_2_DI1"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^EtherCAT2  (EK1100) Coupler MP-6K1^(EL2809) Output Teminal MP-6K20">
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A0_0" VarB="Channel 1^A0.0_1_DQ0"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A0_1" VarB="Channel 2^A0.1_2_DQ1"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^EtherCAT3 (EK1100) Coupler LS-7K1^ (EL2809) Output Terminal LS-7K20">
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_0" VarB="Channel 1^A50.0_1_DQ0"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_1" VarB="Channel 2^A50.1_2_DQ1"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_2" VarB="Channel 3^A50.2_3_DQ2"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_3" VarB="Channel 4^A50.3_4_DQ3"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_4" VarB="Channel 5^A50.4_5_DQ4"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DQ_A50_5" VarB="Channel 6^A50.5_6_DQ5"/>
+			</OwnerB>
+			<OwnerB Name="TIID^C6015 (X102)^EtherCAT1  (CU1128) Junction^EtherCAT3 (EK1100) Coupler LS-7K1^(EL1809) Input Terminal LS-7K10">
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E50_0" VarB="Channel 1^E50.0_1_DI0"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E50_1" VarB="Channel 2^E50.1_2_DI1"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI_E50_2" VarB="Channel 3^E50.2_3_DI2"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmProject>

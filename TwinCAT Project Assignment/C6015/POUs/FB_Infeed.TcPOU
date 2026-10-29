@@ -1,0 +1,7 @@
+FUNCTION_BLOCK FB_Infeed
+VAR_INPUT bPermit,bStartMove,bReset,bHome,bServoLatched,bServoAS,bServoGS:BOOL; fTargetPosition,fVelocity,fAcceleration,fDeceleration:LREAL; END_VAR
+VAR_IN_OUT Axis:AXIS_REF; END_VAR
+VAR_OUTPUT bReady,bBusy,bDone,bFault:BOOL; nErrorID:UDINT; END_VAR
+VAR fbServo:FB_ServoAxis; END_VAR
+fbServo(Axis:=Axis,bEnable:=bPermit,bResetCmd:=bReset,bHomeCmd:=bHome,bMoveAbsCmd:=bStartMove AND bPermit AND bServoLatched,bStopCmd:=NOT bPermit,fTargetPos:=fTargetPosition,fVelocity:=fVelocity,fAcceleration:=fAcceleration,fDeceleration:=fDeceleration);
+bReady:=fbServo.bAxisReady AND bServoLatched AND bPermit; bBusy:=fbServo.bBusy; bDone:=fbServo.bDone; bFault:=fbServo.bError OR (bServoAS AND bServoGS); nErrorID:=fbServo.nErrorID;
